@@ -1,7 +1,7 @@
 @extends('Layout.master_layout')
 @section('content')
     <style>
-        .pix-news-high .news-card-centered__text {
+        .pix-news-high .backroundColor{
             background-color: #f0f0f0 !important;
         }
         h3{
@@ -722,7 +722,7 @@
                                             <div class="">
 
                                             </div>
-                                            <div class="news-card-centered__text" style="border-top: 1px solid #f0f0f0 !important;"><h3 class="text-center">OFFENSIVE SECURITY CHALLENGES</h3>
+                                            <div class="news-card-centered__text backroundColor" style="border-top: 1px solid #f0f0f0 !important;"><h3 class="text-center">OFFENSIVE SECURITY CHALLENGES</h3>
                                                 <div class="text-center" >
                                                     <a class="btn btn-md btn-primary py-1 px-5" href="#">Join</a>
                                                 </div>
@@ -734,7 +734,7 @@
                                         <div class="pix-news-high pix-overlay-container">
                                             <div class="pix-box-img">
                                             </div>
-                                            <div class="news-card-centered__text" style="border-top: 1px solid #f0f0f0 !important;"><h3 class="text-center">CTF/HAKATHON</h3>
+                                            <div class="news-card-centered__text backroundColor" style="border-top: 1px solid #f0f0f0 !important;"><h3 class="text-center">CTF/HAKATHON</h3>
                                                 <div class="text-center" >
                                                     <a class="btn btn-md btn-primary py-1 px-5" href="#">Join</a>
                                                 </div>
@@ -746,7 +746,7 @@
                                         <div class="pix-news-high pix-overlay-container">
                                             <div class="pix-box-img">
                                             </div>
-                                                <div class="news-card-centered__text" style="border-top: 1px solid #f0f0f0 !important;"><h3 class="text-center">DEFENSIVE SECURITY CHALLENGES</h3>
+                                                <div class="news-card-centered__text backroundColor" style="border-top: 1px solid #f0f0f0 !important;"><h3 class="text-center">DEFENSIVE SECURITY CHALLENGES</h3>
 
                                                     <p class="text-center"style="font-size: 13px;padding-bottom:10px;">Blue Team</p>
                                                 <div class="text-center" >
@@ -761,7 +761,7 @@
                                         <div class="pix-news-high pix-overlay-container">
                                             <div class="pix-box-img">
                                             </div>
-                                            <div class="news-card-centered__text" style="border-top: 1px solid #f0f0f0 !important; "><h3 class="text-center">COMPLIANCE</h3>
+                                            <div class="news-card-centered__text backroundColor" style="border-top: 1px solid #f0f0f0 !important; "><h3 class="text-center">COMPLIANCE</h3>
                                                 <p class="text-center"style="font-size: 13px;padding-bottom:10px;">Assessments</p>
                                                 <div class="text-center" >
                                                     <a class="btn btn-md btn-primary py-1 px-5" href="#">Join</a>
