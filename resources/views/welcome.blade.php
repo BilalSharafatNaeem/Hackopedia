@@ -4,6 +4,9 @@
         .pix-news-high .news-card-centered__text {
             background-color: #f0f0f0 !important;
         }
+        h3{
+            text-align: center;
+        }
     </style>
 
 <div id="page-preloader"><span class="circle"></span></div>
