@@ -543,27 +543,22 @@
 
                     <div class="vc_row-full-width vc_clearfix"></div>
 
-                            <div class="row mt-4">
-                                <div class="col-lg-6 thumb bg-cover">
-                                    <img src="https://emriconconsulting.com/wp-content/uploads/2021/08/alex-kotliarskyi-ourQHRTE2IM-unsplash-scaled-1.jpeg" width="500px" height="300px">
-                                </div>
-                                <div class="col-lg-6 info">
-                                    <div class="row"><div class="col-lg-6 col-md-6 item">
-                                            <h4>Our Mission</h4>
-                                            <h2 class="text-blur">Mission</h2>
-                                            <p>
-                                                Our mission at Hacktopedia is to help create a better and more secure world by facilitating a more thorough assessment of an organization’s IT security.
-                                            </p></div><div class="col-lg-6 col-md-6 item">
-                                            <h4>Our Vision</h4>
-                                            <h2 class="text-blur">Vision</h2>
-                                            <p>
-                                                Our vision at Hactopedia is to help create a better and more secure world with the help of our internationally certified team of professionals.
-                                            </p></div></div>
-                                </div>
-                            </div>
 
                     <div data-vc-full-width="true" data-vc-full-width-init="false"
-                         class="vc_row wpb_row vc_row-fluid pix-top-no-padding pix-padding-bottom-xl default vc_column-gap-25 vc_row-o-content-top vc_row-flex">
+                         class="vc_row wpb_row vc_row-fluid pix-top-no-padding pix-padding-bottom-xl default vc_column-gap-25 vc_row-o-content-top vc_row-flex" style="background-color: #a9cf91;padding-bottom: 20px;">
+                        <div class="row mt-4">
+                            <div class="col-lg-4 thumb bg-cover text-center">
+                                <img src="{{asset('wp-content/uploads/2019/04/col.png')}}" width="200px" height="200px" style="border: 3px solid #ffffff;border-radius: 50%">
+                                <h5>Col. Ejaz Minhas</h5>
+                            </div>
+                            <div class="col-lg-8 info p-4">
+                                        <h2 class="text-blur">Our Mission & Vision</h2>
+                                        <p>
+                                            Our mission at Hacktopedia is to help create a better and more secure world by facilitating a more thorough assessment of an organization’s IT security.
+                                            Our vision at Hactopedia is to help create a better and more secure world with the help of our internationally certified team of professionals.
+                                        </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="vc_row-full-width vc_clearfix"></div>
                 </div>
