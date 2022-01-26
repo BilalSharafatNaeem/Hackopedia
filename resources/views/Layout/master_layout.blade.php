@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="xmlrpc.php">
-    <title>Hackopedia &#8211; Just another WordPress site</title>
+    <title>Hackopedia</title>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C400%2C500%2C600%2C700%7CMukta%3A300%2C400%2C500%2C600%2C700%7CRoboto%3A700%2C400%7CJost%3A600%2C500&amp;subset=latin%2Clatin-ext&amp;display=swap"/>
     <link rel="stylesheet" href="{{asset('wp-content/cache/min/1/28dc6c1abd6fc7edda920d8f25a08a42.css')}}" data-minify="1"/>
