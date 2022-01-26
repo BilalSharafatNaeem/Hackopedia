@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 
+Route::get('upcoming',function (){
+    return view('upcoming');
+});

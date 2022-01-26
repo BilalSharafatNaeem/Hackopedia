@@ -7,6 +7,24 @@
         h3{
             text-align: center;
         }
+        .loginButton {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            border: 1px solid #fff;
+            padding: 16px 50px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .loginButton:hover,
+        .loginButton:active,
+        .loginButton:focus {
+            background-color: #ffffff;
+            transition: all .3s ease-in-out;
+        }
     </style>
 
     <div id="page-preloader"><span class="circle"></span></div>
@@ -75,18 +93,7 @@
                     <ul id="menu-main" class="nav navbar-nav">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1952 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2786 ">
                             <a title=" " href="">Home</a>
-{{--                            <ul class="submenu js-menu">--}}
-{{--                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1952 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-4970 arrow">--}}
-{{--                                    <a href="">Cyber security</a>--}}
-{{--                                </li>--}}
-{{--                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4983 arrow">--}}
-{{--                                    <a href="">CCTV security</a>--}}
-{{--                                </li>--}}
-{{--                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4984 arrow">--}}
-{{--                                    <a href="">Bodyguard</a>--}}
-{{--                                </li>--}}
 
-{{--                            </ul>--}}
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2785 ">
                             <a title=" " href="">Services</a>
@@ -102,16 +109,6 @@
                         </li>
                     </ul>
                 </nav>
-                {{--            <nav>--}}
-                {{--                <ul class="main-menu-elements">--}}
-                {{--                    <li class="pix-header-phone"><a href="tel:+81003545787"><i class="fas fa-phone"></i><span>+ 8 100 354 57 87</span></a>--}}
-                {{--                    </li>--}}
-                {{--                    <li class="cart"><a href="cart/index.html">--}}
-                {{--                            <div class="pix-cart-items"><i class="fas fa-shopping-basket"></i> <span--}}
-                {{--                                    class="pix-cart-count">0</span></div>--}}
-                {{--                        </a></li>--}}
-                {{--                </ul>--}}
-                {{--            </nav>--}}
             </div>
         </header>
         <div class="home-template">
@@ -140,28 +137,10 @@
                                                    data-frame_1_chars="e:power4.inOut;dir:middletoedge;d:10;"
                                                    data-frame_999="o:0;st:w;sR:3990;"
                                                    style="z-index:5;font-family:Jost !important;">Powered by EMRICON and Organized by ITU</p>
-                                                <rs-layer id="slider-5-slide-10-layer-8" class="rev-btn rs-selectable"
-                                                          data-type="button" data-color="rgba(255,255,255,1)"
-                                                          data-xy="x:c;xo:113px,113px,0,0;y:m;yo:95px,70px,79px,20px;"
-                                                          data-text="s:18,18,17,17;l:12,12,17,17;fw:600,600,500,500;a:inherit;"
-                                                          data-rsp_bd="off" data-padding="t:22;r:45;b:22;l:45;"
-                                                          data-border="bor:4px,4px,4px,4px;" data-frame_1="sp:2000;"
-                                                          data-frame_999="o:0;st:w;sR:5700;"
-                                                          data-frame_hover="c:#000;bgc:#fff;boc:#000;bor:4px,4px,4px,4px;bos:solid;oX:50;oY:50;"
-                                                          style="z-index:6;background-color:#216fff;font-family:Jost;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                                    Join us
-                                                </rs-layer>
-                                                <rs-layer id="slider-5-slide-10-layer-9" class="rev-btn rs-selectable"
-                                                          data-type="button" data-color="rgba(255,255,255,1)"
-                                                          data-xy="x:c;xo:-111px,-114px,-609px,-338px;y:m;yo:95px,71px,75px,24px;"
-                                                          data-text="s:18,18,17,17;l:12,12,17,17;fw:600,600,500,500;a:inherit,inherit,inherit,center;"
-                                                          data-rsp_bd="off" data-padding="t:21;r:50;b:21;l:50;"
-                                                          data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;bor:4px,4px,4px,4px;"
-                                                          data-frame_1="sp:2000;" data-frame_999="o:0;st:w;sR:5700;"
-                                                          data-frame_hover="c:#000;bgc:#fff;boc:rgba(0,0,0,0);bor:4px,4px,4px,4px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
-                                                          style="z-index:7;background-color:rgba(50,115,234,0);font-family:Jost;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                                    Login
-                                                </rs-layer>
+
+
+                                                <a href="https://itu-hackathon.ctfd.io/" target="_blank" class="loginButton">Register</a>
+
                                                 <rs-layer id="slider-5-slide-10-layer-10" class="rs-selectable"
                                                           data-type="text" data-rsp_ch="on"
                                                           data-xy="x:c;y:m;yo:-129px,-141px,-140px,-200px;"
@@ -173,6 +152,7 @@
                                                     Cyber Security Hackathon
                                                 </rs-layer>
                                             </rs-slide>
+
                                             <rs-slide data-key="rs-16" data-title="Slide" data-anim="f:nodelay;"
                                                       data-filter="b:2;" data-in="o:0;sx:1.5;sy:1.2;m:true;col:6;"><img
                                                     src="{{asset('wp-content/uploads/2019/06/sla1.jpg')}}" title="sla1" width="2000"
@@ -189,28 +169,8 @@
                                                    data-frame_1_chars="e:power4.inOut;dir:middletoedge;d:10;"
                                                    data-frame_999="o:0;st:w;sR:3990;"
                                                    style="z-index:5;font-family:Jost !important;">Powered by EMRICON and Organized by ITU</p>
-                                                <rs-layer id="slider-5-slide-16-layer-8" class="rev-btn rs-selectable"
-                                                          data-type="button" data-color="rgba(255,255,255,1)"
-                                                          data-xy="x:c;xo:113px,113px,102px,0;y:m;yo:95px,70px,79px,125px;"
-                                                          data-text="s:18,18,17,17;l:12,12,17,17;fw:600,600,500,500;a:inherit;"
-                                                          data-rsp_bd="off" data-padding="t:22;r:45;b:22;l:45;"
-                                                          data-border="bor:4px,4px,4px,4px;" data-frame_1="sp:2000;"
-                                                          data-frame_999="o:0;st:w;sR:5700;"
-                                                          data-frame_hover="c:#000;bgc:#fff;boc:#000;bor:4px,4px,4px,4px;bos:solid;oX:50;oY:50;"
-                                                          style="z-index:6;background-color:#216fff;font-family:Jost;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                                    Join us
-                                                </rs-layer>
-                                                <rs-layer id="slider-5-slide-16-layer-9" class="rev-btn rs-selectable"
-                                                          data-type="button" data-color="rgba(255,255,255,1)"
-                                                          data-xy="x:c;xo:-111px,-114px,-114px,0;y:m;yo:95px,71px,78px,25px;"
-                                                          data-text="s:18,18,17,17;l:12,12,17,17;fw:600,600,500,500;a:inherit,inherit,inherit,center;"
-                                                          data-rsp_bd="off" data-padding="t:21;r:50;b:21;l:50;"
-                                                          data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;bor:4px,4px,4px,4px;"
-                                                          data-frame_1="sp:2000;" data-frame_999="o:0;st:w;sR:5700;"
-                                                          data-frame_hover="c:#000;bgc:#fff;boc:rgba(0,0,0,0);bor:4px,4px,4px,4px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
-                                                          style="z-index:7;background-color:rgba(50,115,234,0);font-family:Jost;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                                    Login
-                                                </rs-layer>
+                                                <a href="https://itu-hackathon.ctfd.io/" target="_blank" class="loginButton">Register</a>
+
                                                 <rs-layer id="slider-5-slide-16-layer-10" class="rs-selectable"
                                                           data-type="text" data-rsp_ch="on"
                                                           data-xy="x:c;xo:0,0,-8px,0;y:m;yo:-129px,-141px,-140px,-200px;"
@@ -292,86 +252,98 @@
                             <div class="wpb_wrapper">
                                 <div class="pix-section-title pix-l text-center default ">
                                     <h1 class="">What We Have</h1>
-                                    <section class="pix-carousel pix-gallery pix-service pix-bottom-info-container pix-global">
-                                        <div class="pix-gallery-slider owl-carousel" data-col="3" data-gap="50" data-nav="dots">
-                                            <div
-                                                class="pix-gallery-item pix-bottom-info pix-service pix-overlay-container security-applications antiviral-app">
-                                                <div class="pix-box-img"><a href="" class="pix-image-link">
-                                                        <div class="pix-overlay "></div>
-                                                        <div class="pix-img-wrapper"><img width="650" height="430"
-                                                                                          src="{{asset('wp-content/uploads/2019/04/img57-650x430.jpg')}}"
-                                                                                          class="img-responsive wp-post-image"
-                                                                                          alt="" loading="lazy"/></div>
-                                                    </a>
+                                    <section class=" pix-gallery pix-service pix-bottom-info-container pix-global">
+                                        <div class="row" data-col="3" data-gap="50" data-nav="dots">
+                                            <div class="col-md-4">
+                                                <div class="pix-news-high pix-overlay-container">
+                                                    <div class="pix-box-img">
+                                                        <a href="#">
+                                                            <img width="650" height="434"
+                                                                 src="wp-content/uploads/2019/04/Guided-labs.png"
+                                                                 class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
+                                                                 alt="" loading="lazy"/>
+                                                        </a>
 
-                                                </div>
-                                                <div class="pix-box-name">
-                                                    <a class="pix-title-link" href="">Guided Labs</a>
-                                                    <p class="text-muted font-weight-normal">We have guided labs for the beginner.</p>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="pix-gallery-item pix-bottom-info pix-service pix-overlay-container security-applications protection-app">
-                                                <div class="pix-box-img"><a href=""
-                                                                            class="pix-image-link">
-                                                        <div class="pix-overlay "></div>
-                                                        <div class="pix-img-wrapper"><img width="650" height="433"
-                                                                                          src="{{asset('wp-content/uploads/2019/04/img40-650x433.jpg')}}"
-                                                                                          class="img-responsive wp-post-image"
-                                                                                          alt="" loading="lazy"/></div>
-                                                    </a>
-                                                </div>
-                                                <div class="pix-box-name">
-                                                    <a class="pix-title-link" href="">Jeopardy style</a>
-                                                    <p class="text-muted font-weight-normal">Boost your ctf skills with our jeopardy style labs. Where we have crypto,web,osint,forensics etc challnges</p>
+                                                    </div>
+                                                    <div class="news-card-centered__text"><h2>Guided Labs</h2>
+                                                        <div class="text-center" >
+                                                            <p class="">We have guided labs for the beginner.</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pix-gallery-item pix-bottom-info pix-service pix-overlay-container control-applications protection-app">
-                                                <div class="pix-box-img"><a href=""
-                                                                            class="pix-image-link">
-                                                        <div class="pix-overlay "></div>
-                                                        <div class="pix-img-wrapper"><img width="650" height="433"
-                                                                                          src="{{asset('wp-content/uploads/2019/04/img58-650x433.jpg')}}"
-                                                                                          class="img-responsive wp-post-image"
-                                                                                          alt="" loading="lazy"/></div>
-                                                    </a>
-                                                </div>
-                                                <div class="pix-box-name">
-                                                    <a class="pix-title-link" href="">Boot to root machines</a>
-                                                    <p class="text-muted font-weight-normal">We made scenarios like real life, where machine will be given and you have to access as root from boot
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="pix-gallery-item pix-bottom-info pix-service pix-overlay-container control-applications mobile-app">
-                                                <div class="pix-box-img">
-                                                    <a href="" class="pix-image-link">
-                                                        <div class="pix-overlay "></div>
-                                                        <div class="pix-img-wrapper"><img width="650" height="434"
-                                                                                          src="{{asset('wp-content/uploads/2019/04/img25-650x434.jpg')}}"
-                                                                                          class="img-responsive wp-post-image"
-                                                                                          alt="" loading="lazy"/></div>
-                                                    </a>
-                                                </div>
-                                                <div class="pix-box-name">
-                                                    <a class="pix-title-link" href="">Ranking and point system</a>
-                                                    <p class="text-muted font-weight-normal">Be at the top by solving as many labs as you can</p>
+                                            <div class="col-md-4">
+                                                <div class="pix-news-high pix-overlay-container">
+                                                    <div class="pix-box-img">
+                                                        <a href="#">
+                                                            <img width="650" height="434"
+                                                                 src="wp-content/uploads/2019/04/jeopardy-style-challanges.png"
+                                                                 class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
+                                                                 alt="" loading="lazy"/>
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="news-card-centered__text"><h2>Jeopardy style</h2>
+                                                        <div class="text-center" >
+                                                            <p class="">Boost your ctf skills with our jeopardy style labs. Where we have crypto,web,osint,forensics etc challnges</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="pix-gallery-item pix-bottom-info pix-service pix-overlay-container antiviral-app mobile-app">
-                                                <div class="pix-box-img"><a href="services/mobile-security-system/index.html"
-                                                                            class="pix-image-link">
-                                                        <div class="pix-overlay "></div>
-                                                        <div class="pix-img-wrapper"><img width="650" height="433"
-                                                                                          src="wp-content/uploads/2019/04/img11-650x433.jpg"
-                                                                                          class="img-responsive wp-post-image"
-                                                                                          alt="" loading="lazy"/></div>
-                                                    </a>
+                                            <div class="col-md-4">
+                                                <div class="pix-news-high pix-overlay-container">
+                                                    <div class="pix-box-img">
+                                                        <a href="#">
+                                                            <img width="650" height="434"
+                                                                 src="wp-content/uploads/2019/04/boot-to-root-machines.png"
+                                                                 class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
+                                                                 alt="" loading="lazy"/>
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="news-card-centered__text"><h2>Boot to root machines</h2>
+                                                        <div class="text-center" >
+                                                            <p class="" href="{{url('/upcoming')}}">We made scenarios like real life, where machine will be given and you have to access as root from boot</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="pix-box-name"><a class="pix-title-link" href="">Get certificate</a>
-                                                    <p class="text-muted font-weight-normal">Earn certificate by completing the pathway.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4">
+                                            <div class="col-md-4">
+                                                <div class="pix-news-high pix-overlay-container">
+                                                    <div class="pix-box-img">
+                                                        <a href="#">
+                                                            <img width="650" height="434"
+                                                                 src="wp-content/uploads/2019/04/point-and-ranking-system.png"
+                                                                 class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
+                                                                 alt="" loading="lazy"/>
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="news-card-centered__text"><h2>Ranking and point system</h2>
+                                                        <div class="text-center" >
+                                                            <p class="">Be at the top by solving as many labs as you can</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="pix-news-high pix-overlay-container">
+                                                    <div class="pix-box-img">
+                                                        <a href="#">
+                                                            <img width="650" height="434"
+                                                                 src="wp-content/uploads/2019/04/certificates.png"
+                                                                 class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
+                                                                 alt="" loading="lazy"/>
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="news-card-centered__text"><h2>Get certificate</h2>
+                                                        <div class="text-center" >
+                                                            <p class="">Earn certificate by completing the pathway.</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -403,7 +375,7 @@
                                                 </div>
                                                 <div class="news-card-centered__text"><h3>OFFENSIVE SECURITY PATH</h3>
                                                     <div class="text-center" >
-                                                        <a class="btn btn-md btn-primary" href="#">Start Module</a>
+                                                        <a class="btn btn-md btn-primary" href="{{url('/upcoming')}}">Start Module</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -420,7 +392,7 @@
                                                 </div>
                                                 <div class="news-card-centered__text"><h3>DEFENSIVE CHALLENGES</h3>
                                                     <div class="text-center" >
-                                                        <a class="btn btn-md btn-primary" href="#">Start Module</a>
+                                                        <a class="btn btn-md btn-primary" href="{{url('/upcoming')}}">Start Module</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -437,7 +409,7 @@
                                                 </div>
                                                 <div class="news-card-centered__text"><h3>JEOPARDT CALLENGES</h3>
                                                     <div class="text-center" >
-                                                        <a class="btn btn-md btn-primary" href="#">Start Module</a>
+                                                        <a class="btn btn-md btn-primary" href="{{url('/upcoming')}}">Start Module</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -458,7 +430,7 @@
                                                 </div>
                                                 <div class="news-card-centered__text"><h3>WEB EXPLOITATION</h3>
                                                     <div class="text-center" >
-                                                        <a class="btn btn-md btn-primary" href="#">Start Module</a>
+                                                        <a class="btn btn-md btn-primary" href="{{url('/upcoming')}}">Start Module</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -475,7 +447,7 @@
                                                 </div>
                                                 <div class="news-card-centered__text"><h3>ANDROID EXPLOITATION</h3>
                                                     <div class="text-center" >
-                                                        <a class="btn btn-md btn-primary" href="#">Start Module</a>
+                                                        <a class="btn btn-md btn-primary" href="{{url('/upcoming')}}">Start Module</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -492,7 +464,7 @@
                                                 </div>
                                                 <div class="news-card-centered__text"><h3>BOOT TO ROOT MACHINES</h3>
                                                     <div class="text-center" >
-                                                        <a class="btn btn-md btn-primary" href="#">Start Module</a>
+                                                        <a class="btn btn-md btn-primary" href="{{url('/upcoming')}}" target="_blank">Start Module</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -510,7 +482,7 @@
                     <div data-vc-full-width="true" data-vc-full-width-init="false"
                          class="vc_row wpb_row vc_row-fluid pix-padding-top-xl pix-padding-bottom-xl default vc_custom_1562771349885 vc_row-has-fill" style="padding-top: 10px;padding-bottom: 20px !important;">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <h1 class="text-center">Our Partner</h1>
+                            <h1 class="text-center">Our Partners</h1>
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
                                     <div class="owl-carousel owl-theme pix-tablet-carousel-off pix-mobile-carousel-off "
@@ -658,16 +630,6 @@
                                                                 class="vc_icon_element-inner vc_icon_element-color-grey vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey">
                                                                 <a class="vc_icon_element-link" href="" title=""
                                                                    target="_self"><span
-                                                                        class="vc_icon_element-icon fa fa-github"></span></a>
-                                                            </div>
-                                                            <div class="vc_icon_content"></div>
-                                                        </div>
-                                                        <div
-                                                            class="pix_icon_element vc_icon_element vc_icon_element-outer vc_icon_element-align-center">
-                                                            <div
-                                                                class="vc_icon_element-inner vc_icon_element-color-grey vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey">
-                                                                <a class="vc_icon_element-link" href="" title=""
-                                                                   target="_self"><span
                                                                         class="vc_icon_element-icon fa fa-linkedin"></span></a>
                                                             </div>
                                                             <div class="vc_icon_content"></div>
@@ -699,17 +661,15 @@
                                                                     </li>
                                                                     <li id="menu-item-2778"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2778">
-                                                                        <a title=" " href="">Blog</a></li>
+                                                                        <a title=" " href="">Services</a></li>
                                                                     <li id="menu-item-3092"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3092">
-                                                                        <a href="">Prices</a></li>
+                                                                        <a href="">Subscription</a></li>
                                                                     <li id="menu-item-2779"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2779">
-                                                                        <a title=" " href="">Contacts</a>
+                                                                        <a title=" " href="">Contact Us</a>
                                                                     </li>
-                                                                    <li id="menu-item-3091"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3091">
-                                                                        <a href="">Services</a></li>
+
                                                                 </ul>
                                                             </div>
                                                         </div>
