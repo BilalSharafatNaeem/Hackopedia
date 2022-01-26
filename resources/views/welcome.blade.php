@@ -542,14 +542,8 @@
 
 
                     <div class="vc_row-full-width vc_clearfix"></div>
-                    <div
-                        class="vc_row wpb_row vc_row-fluid pix-top-no-padding pix-bottom-no-padding pix-row-overflow pix-top-offset_1600211667 pix-rounded pix_shadow_1688436472">
-                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid pix-padding-top-xl pix-padding-bottom-xl default vc_row-o-equal-height vc_row-flex" style="padding-bottom: 0px;">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="row">
+
+                            <div class="row mt-4">
                                 <div class="col-lg-6 thumb bg-cover">
                                     <img src="https://emriconconsulting.com/wp-content/uploads/2021/08/alex-kotliarskyi-ourQHRTE2IM-unsplash-scaled-1.jpeg" width="500px" height="300px">
                                 </div>
@@ -567,8 +561,7 @@
                                             </p></div></div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+
                     <div data-vc-full-width="true" data-vc-full-width-init="false"
                          class="vc_row wpb_row vc_row-fluid pix-top-no-padding pix-padding-bottom-xl default vc_column-gap-25 vc_row-o-content-top vc_row-flex">
                     </div>
