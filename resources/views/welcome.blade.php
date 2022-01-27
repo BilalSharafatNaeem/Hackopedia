@@ -25,6 +25,9 @@
             background-color: #ffffff;
             transition: all .3s ease-in-out;
         }
+        .fontSize{
+            font-size: 19px;
+        }
     </style>
 
     <div id="page-preloader"><span class="circle"></span></div>
@@ -251,7 +254,7 @@
                         <div class="vc_column-inner pix-padding-top-xl pix-padding-bottom-xl vc_custom_1562770180110">
                             <div class="wpb_wrapper">
                                 <div class="pix-section-title pix-l text-center default ">
-                                    <h1 class="">What We Have</h1>
+                                    <h1 class="fontSize">What We Have</h1>
                                     <section class=" pix-gallery pix-service pix-bottom-info-container pix-global">
                                         <div class="row" data-col="3" data-gap="50" data-nav="dots">
                                             <div class="col-md-4">
@@ -283,7 +286,7 @@
                                                         </a>
 
                                                     </div>
-                                                    <div class="news-card-centered__text"><h2>Jeopardy style</h2>
+                                                    <div class="news-card-centered__text"><h2>Jeopardy style challenges</h2>
                                                         <div class="text-center" >
                                                             <p class="">Boost your ctf skills with our jeopardy style labs. Where we have crypto,web,osint,forensics etc challnges</p>
                                                         </div>
@@ -339,9 +342,27 @@
                                                         </a>
 
                                                     </div>
-                                                    <div class="news-card-centered__text"><h2>Get certificate</h2>
-                                                        <div class="text-center" >
+                                                    <div class="news-card-centered__text"><h2>Certificates</h2>
+                                                        <div class="text-center">
                                                             <p class="">Earn certificate by completing the pathway.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="pix-news-high pix-overlay-container">
+                                                    <div class="pix-box-img">
+                                                        <a href="#">
+                                                            <img width="650" height="434"
+                                                                 src="wp-content/uploads/2019/04/real_life.png"
+                                                                 class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
+                                                                 alt="" loading="lazy"/>
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="news-card-centered__text"><h2>Real life realad challenges</h2>
+                                                        <div class="text-center">
+                                                            <p class="">Our challenges reflect real life security problems.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -359,7 +380,7 @@
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
                                     <div class="pix-section-title pix-l text-center default pb-3">
-                                        <h2 class="">Choose catagory and start learning</h2>
+                                        <h2 class="fontSize">Choose catagory and start learning</h2>
                                     </div>
                                     <div class="mb-4 row">
                                         <div class="col-md-4">
@@ -388,10 +409,10 @@
                                                         <img width="650" height="434"
                                                              src="wp-content/uploads/2019/04/img26-650x434.jpg"
                                                              class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
-                                                             alt="" loading="lazy"/> </a>
+                                                             alt="" loading="lazy"/></a>
                                                 </div>
                                                 <div class="news-card-centered__text"><h3>DEFENSIVE CHALLENGES</h3>
-                                                    <div class="text-center" >
+                                                    <div class="text-center">
                                                         <a class="btn btn-md btn-primary" href="{{url('/upcoming')}}">Start Module</a>
                                                     </div>
                                                 </div>
@@ -482,7 +503,7 @@
                     <div data-vc-full-width="true" data-vc-full-width-init="false"
                          class="vc_row wpb_row vc_row-fluid pix-padding-top-xl pix-padding-bottom-xl default vc_custom_1562771349885 vc_row-has-fill" style="padding-top: 10px;padding-bottom: 20px !important;">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <h1 class="text-center">Our Partners</h1>
+                            <h1 class="text-center fontSize">Our Partners</h1>
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
                                     <div class="owl-carousel owl-theme pix-tablet-carousel-off pix-mobile-carousel-off "
