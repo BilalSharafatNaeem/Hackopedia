@@ -259,9 +259,9 @@
                                         <div class="row" data-col="3" data-gap="50" data-nav="dots">
                                             <div class="col-md-4">
                                                 <div class="pix-news-high pix-overlay-container">
-                                                    <div class="pix-box-img">
+                                                    <div class="">
                                                         <a href="#">
-                                                            <img width="650" height="434"
+                                                            <img style="width: 100%"
                                                                  src="wp-content/uploads/2019/04/Guided-labs.png"
                                                                  class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
                                                                  alt="" loading="lazy"/>
@@ -277,9 +277,9 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="pix-news-high pix-overlay-container">
-                                                    <div class="pix-box-img">
+                                                    <div class="">
                                                         <a href="#">
-                                                            <img width="650" height="434"
+                                                            <img style="width: 100%"
                                                                  src="wp-content/uploads/2019/04/jeopardy-style-challanges.png"
                                                                  class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
                                                                  alt="" loading="lazy"/>
@@ -295,9 +295,9 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="pix-news-high pix-overlay-container">
-                                                    <div class="pix-box-img">
+                                                    <div class="">
                                                         <a href="#">
-                                                            <img width="650" height="434"
+                                                            <img style="width: 100%"
                                                                  src="wp-content/uploads/2019/04/boot-to-root-machines.png"
                                                                  class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
                                                                  alt="" loading="lazy"/>
@@ -315,9 +315,9 @@
                                         <div class="row mt-4">
                                             <div class="col-md-4">
                                                 <div class="pix-news-high pix-overlay-container">
-                                                    <div class="pix-box-img">
+                                                    <div class="">
                                                         <a href="#">
-                                                            <img width="650" height="434"
+                                                            <img style="width: 100%"
                                                                  src="wp-content/uploads/2019/04/point-and-ranking-system.png"
                                                                  class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
                                                                  alt="" loading="lazy"/>
@@ -333,9 +333,9 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="pix-news-high pix-overlay-container">
-                                                    <div class="pix-box-img">
+                                                    <div class="">
                                                         <a href="#">
-                                                            <img width="650" height="434"
+                                                            <img style="width: 100%"
                                                                  src="wp-content/uploads/2019/04/certificates.png"
                                                                  class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
                                                                  alt="" loading="lazy"/>
@@ -351,9 +351,9 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="pix-news-high pix-overlay-container">
-                                                    <div class="pix-box-img">
+                                                    <div class="">
                                                         <a href="#">
-                                                            <img width="650" height="434"
+                                                            <img style="width: 100%"
                                                                  src="wp-content/uploads/2019/04/real_life_1.png"
                                                                  class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
                                                                  alt="" loading="lazy"/>
