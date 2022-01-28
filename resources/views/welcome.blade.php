@@ -354,7 +354,7 @@
                                                     <div class="pix-box-img">
                                                         <a href="#">
                                                             <img width="650" height="434"
-                                                                 src="wp-content/uploads/2019/04/real_life.png"
+                                                                 src="wp-content/uploads/2019/04/real_life_1.png"
                                                                  class="attachment-pixtheme-original-col-3 size-pixtheme-original-col-3 wp-post-image"
                                                                  alt="" loading="lazy"/>
                                                         </a>
